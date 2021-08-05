@@ -11,6 +11,7 @@
 	<groupId>com.inter</groupId>
 	<artifactId>teste</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>teste</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -49,6 +50,12 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.9.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		
 	</dependencies>
